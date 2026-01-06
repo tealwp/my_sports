@@ -127,6 +127,13 @@ export const nhlAdapter: ISportAdapter = {
       allPlayers.forEach((p) => numberMap.set(p.id, p.sweaterNumber));
     }
 
+    {
+      /* Map NHLPlayerStat to IPlayer 
+      This function converts raw NHL player stats into the standardized IPlayer format used in the app.
+      This is where we map different stat fields based on player position (skater vs goalie).
+      */
+    }
+
     const mapPlayer = (p: NHLPlayerStat): IPlayer => {
       const stats: IStat[] = [];
 

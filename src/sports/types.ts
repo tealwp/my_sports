@@ -37,8 +37,7 @@ export type Position =
   | FootballPosition
   | BaseballPosition
   | BasketballPosition
-  | SoccerPosition
-  | "N/A";
+  | SoccerPosition;
 
 export interface IStat {
   label: string;
