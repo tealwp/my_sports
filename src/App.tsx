@@ -6,7 +6,7 @@ import { nhlAdapter } from './sports/nhl';
 // In the future, you can import nbaAdapter here
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/my_sports">
       <div className="min-h-screen bg-gray-50">
         <nav className="bg-slate-900 text-white p-4">
           <div className="container mx-auto flex gap-6">
